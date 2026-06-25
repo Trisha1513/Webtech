@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Creating an Job Application Form Using HTML</legend>
+            <h2>Personal Information</h2>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required>
+            <br>
+            <br>
+            <label for="nid">National ID Number</label><br>
+            <input type="text" id="nid" name="nid" placeholder="Enter NID" required>
+            <br>
+            <br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <br>
+            <br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+            <br>
+            <br>
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <br>
+
+            <label for="gender">Gender</label><br>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            <br>
+            <br>
+
+            <h2>Job Information</h2>
+            <h4>Position Applied For</h4>
+            <select name="position" id="position">
+                <option value="Software Deeloper" selected>Software Deeloper</option>
+                <option value="Web Deeloper">Web Deeloper</option>
+                <option value="Network Engineer">Network Engineer</option>
+                <option value="Database Administrator">Database Administrator</option>
+                <option value="IT Support Officer">IT Support Officer</option>
+            </select>
+
+            <h4>Experience Level</h4>
+            <select name="experience" id="experience">
+                <option value="Fresher">Fresher</option>
+                <option value="1-2 Years">1-2 Years</option>
+                <option value="3-5 Years">3-5 Years</option>
+                <option value="More Than 5 Years">More Than 5 Year</option>
+
+            </select>
+
+
+            <h4>Select Technical Skills</h4>
+            <input type="checkbox" id="HTML" name="HTML">
+            <label for="HTML">HTML</label>
+
+            <input type="checkbox" id="CSS" name="CSS">
+            <label for="CSS">CSS</label>
+
+            <input type="checkbox" id="JavaScript" name="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+
+            <input type="checkbox" id="Python" name="Python">
+            <label for="Python">Python</label>
+
+            <input type="checkbox" id="SQL" name="SQL">
+            <label for="SQL">SQL</label>
+
+            <h2>Educational Information</h2>
+            <label for="highest">Highest Qualification</label><br>
+            <input type="text" id="highest" name="highest" placeholder="Your Last Education">
+            <br>
+            <br>
+
+            <label for="institution">Uni/College Name</label><br>
+            <input type="text" id="institution" name="institution" placeholder="Enter Uni/College Nmae">
+            <br>
+            <br>
+
+            <label for="graduation">Graduation Year</label><br>
+            <input type="date" id="graduation" name="graduation">
+            <br>
+            <br>
+
+            <h2>Additional Information</h2>
+            <label for="resume">Upload Resume/CV</label>
+            <input type="file" id="resume" name="resume">
+            <br>
+            <br>
+
+            <label for="cover">Cover Letter</label><br>
+            <textarea name="address" id="address" rows="5" maxlength="300" cols="40"></textarea>
+            <br>
+            <br>
+
+            <label for="address">Current Address</label><br>
+            <textarea name="address" id="address" rows="5" cols="40"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"d61ace1a7a5c47e3831d343de077b36a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
