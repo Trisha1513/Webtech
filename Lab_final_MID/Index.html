@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnology Workshop Redistration</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <h2>  Registration Form</h2>
+    <form id="regForm">
+
+        <label>First Name:</label>
+        <input type="text" id="fName">
+        <small class="error" id="fNameError"></small>
+
+        <label>Last Name:</label>
+        <input type="text" id="lname">
+        <small class="error" id="lNameError"></small>
+
+        <label>Email:</label>
+        <input type="email" id="email">
+        <small class="error" id="emailError"></small>
+
+         <label>Password:</label>
+        <input type="password" id="password">
+        <small class="error" id="passwordError"></small>
+
+        <label>Gender:</label>
+        <div>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+        <small class="error" id="genderError"></small>
+
+         <label>Interests:</label>
+        <div>
+            <input type="checkbox" name="interest" value="Programming"> Programming
+            <input type="checkbox" name="interest" value="Networking"> Networking
+            <input type="checkbox" name="interest" value="AI"> AI
+        </div>
+        <small class="error" id="interestError"></small>
+ <label>Department:</label>
+        <select id="department">
+            <option value="">Select Department</option>
+            <option>CSE</option>
+            <option>EEE</option>
+            <option>BBA</option>
+            <option>Architecture</option>
+        </select>
+        <small class="error" id="departmentError"></small>
+        <label> About Yourself</label>
+        <textarea id="about"></textarea>
+        <small class="error" id="aboutError"></small>
+
+        <button type="submit">Register</button>
+
+
+    </form>
+    <h3 id="Successfull Message"></h3>
+    </div>
+
+<script src="script.js"></script>
+ 
+</body>
+</html>
